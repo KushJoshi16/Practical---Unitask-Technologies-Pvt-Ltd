@@ -12,7 +12,7 @@ const priceMap = Object.fromEntries(Pricing.map(p => [p.sku, p.price]));
 
 
 const ProductsWithPriceIncluded = Products.map(product => {
-    const price = priceMap[product.sku] || 0;
+    const price = priceMap[product.sku] || null;
     return {
         ...product,
         price: price

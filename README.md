@@ -1,5 +1,7 @@
 # Practical---Unitask-Technologies-Pvt-Ltd
 
+NOTE: Please run index.js using node with the given input file
+
 ## Problem statement:
 
 You are given array of products, pricing and categories , write an optimized nodejs program to
